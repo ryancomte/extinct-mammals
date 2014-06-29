@@ -4,6 +4,9 @@
     "dependencies":{
         "mongoose": "*",
         "express":"*",
-        "body-parser":"*"
+        "body-parser":"*",
+        "angular": "*",
+        "angular-ui-router":"*",
+        "bower": "^1.3.1"
     }
 }
