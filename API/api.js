@@ -10,14 +10,16 @@ exports.get = function(req, res) {
 };
 
 exports.post = function(req, res) {
-    var mammals = new Mammal(req.body);
+    if(req.body){
+        var mammals = new Mammal(req.body);
 
-    mammals.save(function (err, mammals) {
-        if (err) {
-            res.send('oh snap, broken.');
-        }
-        res.send(mammals);
-    });
+        mammals.save(function (err, mammals) {
+            if (err) {
+                res.send('oh snap, broken.');
+            }
+            res.send(mammals);
+        });
+    }
 };
 
 exports.delete = function(req, res){
