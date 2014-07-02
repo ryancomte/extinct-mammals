@@ -1,7 +1,7 @@
 extinct-mammals
 ===============
 
-#Example app demonstrating Node, Express, MongoDB(mongoose), and Angular
+##Example app demonstrating Node, Express, MongoDB(mongoose), and Angular
 
 This is a quick bootstrap demonstrating a full stack app. It is simple, but creates a good road map and reference. It doesn't cover everything. It does cover GET,POST, and DELETE.
 
